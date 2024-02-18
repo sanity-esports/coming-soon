@@ -7,11 +7,11 @@ import Layout from '../layouts/Layout.astro';
 <Layout title="Sanity Esports">
 	<main>
     <div class="text-container">
-      <h1> <span class="first-text">Coming Soon</span> </h1>
-      <h2><span class="second-text">New Website Launching in</span></h2>
+      <h1> <span class="first-text delay-[300ms] duration-[600ms] taos:translate-x-[200px] taos:opacity-0" data-taos-offset="400">Coming Soon</span> </h1>
+      <h2><span class="second-text delay-[300ms] duration-[600ms] taos:translate-x-[-200px] taos:opacity-0" data-taos-offset="400">New Website Launching in</span></h2>
     </div>
       
-		<div id="countdown" class="countdown">
+		<div id="countdown" class="countdown delay-[100ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0" data-taos-offset="300">
 			<div  class="time">
 				<h2 class="text-gradient" id="days">00</h2>
 				<small>days</small>
@@ -29,8 +29,6 @@ import Layout from '../layouts/Layout.astro';
 				<small>seconds</small>
 			</div>
 		</div>
-
-    
     <div id="countDownImage" class="countdown-image">
     </div>
 	</main>
@@ -186,7 +184,6 @@ const days = document.getElementById('days');
 const hours = document.getElementById('hours');
 const minutes = document.getElementById('minutes');
 const seconds = document.getElementById('seconds');
-const countdownImage = document.getElementById('countDownImage')
 
 // target date
 const targetTime = new Date(`March 7 2024 23:59:59`)

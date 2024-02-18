@@ -18,6 +18,7 @@ const { title } = Astro.props;
       type="image/svg+xml"
       href="https://cdn.discordapp.com/attachments/1150283260107165757/1169712622879375400/sanity_esports_logo.png?ex=655666c5&is=6543f1c5&hm=13e26138cb844ec951b6d39a85a425af724cd176d85b8fe94d1f09cb648944cb&"
     />
+    <script>document.documentElement.classList.add('js')</script>
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content="Sanity Esports - GoTo Esports Platform" />
     <title>Sanity Esports</title>
@@ -42,6 +43,7 @@ const { title } = Astro.props;
     <Navbar />
     <slot />
     <Footer />
+    <script src="https://unpkg.com/taos@1.0.5/dist/taos.js"></script>
   </body>
   <script>
     const switchTheme = document.querySelector(
