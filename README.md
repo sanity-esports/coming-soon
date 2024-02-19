@@ -1,10 +1,6 @@
-<h1>AgenceX Landing page</h1>
+<h1>Sanity Esports</h1>
 
-A simple landing page for a digital agency
-
-![AgenceX light Theme](./screens/demoLight.webp)
-![AgenceX Dark Theme](./screens/demoDark.webp)
-
+Coming Soon
 
 ## Tools
 - TailwindCSS v3.3
@@ -13,7 +9,7 @@ A simple landing page for a digital agency
 
 ## 🚀 Project Structure
 
-Inside of your Astro project, you'll see the following folders and files:
+Inside this Astro project, you'll see the following folders and files:
 
 ```
 /
